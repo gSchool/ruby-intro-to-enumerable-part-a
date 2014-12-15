@@ -1,3 +1,19 @@
+def none_empty?(input)
+
+  result = true
+
+  input.each do |value|
+    if value.nil? || value.empty?
+      result = false
+    end
+  end
+
+  result
+
+end
+
+
+
 
 # ------ code above this line ------
 

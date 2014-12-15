@@ -1,3 +1,16 @@
+def group_by(input, key)
+
+  result = {}
+
+  input.each do |hash|
+    value = hash[key]
+      result[value] ||= []
+      result[value] << hash
+  end
+
+  result
+
+end
 
 # ------ code above this line ------
 

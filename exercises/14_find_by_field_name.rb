@@ -1,3 +1,19 @@
+def find_by_field_name(input, key, value)
+
+  result = nil
+
+  input.each do |x|
+
+    if x[:id] == value || x[:name] == value
+      result = x
+    end
+
+  end
+
+  result
+
+end
+
 
 # ------ code above this line ------
 

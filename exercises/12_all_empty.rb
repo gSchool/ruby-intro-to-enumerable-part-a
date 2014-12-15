@@ -1,3 +1,16 @@
+def all_empty?(input)
+
+  result = true
+
+  input.each do |value|
+    result = false unless value.nil?
+  end
+
+ result
+
+end
+
+
 
 # ------ code above this line ------
 

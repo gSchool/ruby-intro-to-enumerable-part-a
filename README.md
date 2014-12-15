@@ -1,4 +1,4 @@
-https-github.com-gSchool-ruby-intro-to-enumerable-part-a
+Intro to enumerable part A
 ==================================================================
 
 ## Class Notes:
@@ -10,7 +10,6 @@ https-github.com-gSchool-ruby-intro-to-enumerable-part-a
 Any piece of code that evaluates to a value, this includes:
 
 - *values* - `7`, `"thing"`
-- *constants* - `ENV`
 - variables - `x`, `foo`
 - operators - `+`, `<<`, `*`
 - functions - `exit`, `puts`

@@ -1,4 +1,16 @@
+def find_by_field_name(hashes, key, value)
+  result = nil
 
+  hashes.each do |hash|
+    hash.each do |hash_key, hash_value|
+      if key == hash_key && value == hash_value
+        result = hash
+      end
+    end
+  end
+
+  result
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

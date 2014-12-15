@@ -1,6 +1,8 @@
 Intro to enumerable part A
 ==================================================================
 
+Turek was here
+
 ## Class Notes:
 
 ### Expressions and Statements:

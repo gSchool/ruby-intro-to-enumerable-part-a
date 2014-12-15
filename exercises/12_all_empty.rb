@@ -1,3 +1,11 @@
+def all_empty?(strings)
+  strings.each do |string|
+    return false if string.nil? || !string.empty?
+  end
+
+  return true
+end
+
 
 # ------ code above this line ------
 
@@ -12,6 +20,12 @@ RSpec.describe '#all_empty?' do
 
   it 'returns false if any word is present' do
     input = [nil, '', 'la', nil]
+
+    expect(all_empty?(input)).to eq(false)
+  end
+
+  it 'returns false if all nils are present' do
+    input = [nil, nil]
 
     expect(all_empty?(input)).to eq(false)
   end

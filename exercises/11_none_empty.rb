@@ -1,3 +1,15 @@
+def none_empty?(strings)
+
+  strings.each do |string|
+    if string == "" || string.nil?
+      return false
+    end
+  end
+
+
+  return true
+end
+
 
 # ------ code above this line ------
 

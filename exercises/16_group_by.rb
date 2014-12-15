@@ -1,3 +1,13 @@
+def group_by(hashes, key)
+  result = {}
+  hashes.each do |hash|
+    group_key = hash[key]
+    result[group_key] ||= []
+    result[group_key] << hash
+  end
+  result
+end
+
 
 # ------ code above this line ------
 

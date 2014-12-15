@@ -15,6 +15,12 @@ Any piece of code that evaluates to a value, this includes:
 - operators - `+`, `<<`, `*`
 - functions - `exit`, `puts`
 
+
+
+
+
+
+
 #### What is a statement?
 
 A statement is a group of expressions to be carried out (or executed). Some examples:

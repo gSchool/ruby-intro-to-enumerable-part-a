@@ -72,7 +72,7 @@ foo.only_method
 # => "also best method! duh!"
 ```
 
-In this case `foo`, the *object*, is an instance of `Foo`, the *class*. When the *instance method*, `only_method` is called: `foo.only_method` it is said that `foo` is the **_receiver_** of the method call.
+In this case `foo`, the *object*, is an instance of `Foo`, the *class*. When the *instance method*, `only_method` is called: `foo.only_method` it is said that `foo` is the **_receiver_** of the method call.!!
 
 #### Getting back to .to_s
 

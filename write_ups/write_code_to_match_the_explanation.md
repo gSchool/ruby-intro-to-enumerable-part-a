@@ -74,9 +74,11 @@ end
 
 ```
 class Car
-  attr_accessor :make, :model
+  def initialize(make, model)
 
-  def honk
+  end
+
+  def honk(make)
   puts "#{make}.upcase goes BEEP!"
   end
 end

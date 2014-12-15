@@ -1,14 +1,8 @@
 def product(numbers)
   result = nil
-  number_count = 0
   numbers.each do |number|
-    number_count += 1
-  end
-  if number_count > 0
-    result = 1
-  end
-  numbers.each do |number|
-    result = result * number
+    result ||= 1
+    result *= number
   end
   result
 end

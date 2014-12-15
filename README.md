@@ -58,7 +58,7 @@ evaluates to:
 #### What is a receiver?
 -	Suppose we have the following class:
 
-Making some fun changes
+Making some fun changes - beth
 
 ```
 class Foo

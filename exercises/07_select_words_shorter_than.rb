@@ -1,4 +1,11 @@
 def select_words_shorter_than(words, length)
+  accepted_words = []
+  words.each do |word|
+    if word.length < length
+      accepted_words << word
+    end
+  end
+  accepted_words
 end
 
 # ------ code above this line ------

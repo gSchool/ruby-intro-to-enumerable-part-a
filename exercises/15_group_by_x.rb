@@ -1,4 +1,13 @@
+def group_by_x(input)
+  result = {}
+  input.each do |value|
+    x_value = value[:x]
+    result[x_value] ||= []
+    result[x_value] << value
+  end
+  result
 
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

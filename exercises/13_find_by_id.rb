@@ -1,4 +1,10 @@
-
+def find_by_id(input, id)
+  result = nil
+  input.each do |name|
+    result = name if name[:id] == id
+  end
+  result
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

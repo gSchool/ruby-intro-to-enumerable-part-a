@@ -1,6 +1,10 @@
 Intro to enumerable part A
 ==================================================================
 
+
+
+
+
 ## Class Notes:
 
 ### Expressions and Statements:

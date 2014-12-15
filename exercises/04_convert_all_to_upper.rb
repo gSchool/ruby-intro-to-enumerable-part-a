@@ -1,4 +1,7 @@
 def convert_all_to_upper_case(words)
+
+  words.each { |word| word.upcase!}
+
 end
 
 # ------ code above this line ------

@@ -78,17 +78,12 @@ end
 **Response:**
 
 ```
-class Car
-  def make
-  end
+class Car(make,model)
 
-  def model
-    model = "Subaru"
-  end
+  @make = make
+  @model = model
+  @honk = "#{model.upcase} goes Beep!"
 
-  def honk
-    "#{model.upcase} goes Beep!"
-  end
 end
 
 puts honk

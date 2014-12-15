@@ -1,3 +1,9 @@
+def all_empty?(strings)
+  strings.each do |string|
+    return false if string.nil? || !string.empty?
+  end
+  return true
+end
 
 # ------ code above this line ------
 

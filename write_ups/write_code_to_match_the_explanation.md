@@ -66,8 +66,10 @@ integer.to_s + also_arbitrary
 
 ```
 class Car
-  make = ""
-  model = ""
+  def initialize(make, model)
+    @make = make
+    @model = model
+  end
 end
 ```
 

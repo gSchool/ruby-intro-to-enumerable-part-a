@@ -5,10 +5,12 @@ Use terms like assigned, reassigned, statement, and concatenates to explain each
 1)
 
 ```
-x = 7 
+x = 7
 ```
 
-**Response:** 
+**Response:**
+
+statement
 
 
 2)
@@ -19,6 +21,7 @@ puts fooey
 ```
 
 **Response:**
+assigned
 
 
 3)
@@ -29,13 +32,15 @@ speical_number = 3
 ```
 
 **Response:**
+reassigned
 
 4)
 
 ```
 1 + 2
 ```
-**Response:** 
+**Response:**
+statement
 
 
 5)
@@ -47,7 +52,8 @@ a + b
 
 ```
 
-**Response:** 
+**Response:**
+concatenates
 
 6)
 
@@ -56,4 +62,5 @@ z = 9
 z = z * 3
 ```
 
-**Response:** 
+**Response:**
+reassigned

@@ -1,4 +1,9 @@
-
+def find_by_field_name(input, key, name)
+  input.each do |item|
+    return item if item[key] == name
+  end
+  nil
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

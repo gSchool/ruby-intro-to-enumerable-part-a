@@ -1,4 +1,14 @@
-
+def group_by(input, key)
+  result = {}
+  input.each do |item|
+    array = []
+    input.each do |sub|
+      array << sub if sub[key] == item[key]
+    end
+    result[item[key]] = array
+  end
+  result
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

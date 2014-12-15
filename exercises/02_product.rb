@@ -1,4 +1,11 @@
 def product(numbers)
+  product = nil
+
+  numbers.each do |number|
+    product = 1 if product.nil?
+    product *= number
+  end
+  product
 end
 
 # ------ code above this line ------

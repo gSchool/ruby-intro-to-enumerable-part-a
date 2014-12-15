@@ -1,4 +1,9 @@
-
+def any_empty?(words)
+  words.each do |word|
+    return true if word == nil || word == ''
+  end
+  false
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

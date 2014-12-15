@@ -1,6 +1,27 @@
+def group_by_x(array)
+  result = {}
+  if array == []
+    result
+  else
+    array.each do |hash|
+      if result.has_key?(hash[:x])
+        result[hash[:x]] << hash
+      else
+        new_array = []
+        new_array << hash
+        result[hash[:x]] = new_array
+      end
+    end
+  end
+  return result
+end
 
+
+# some_hash = {}
+# some_hash[:foo] = "bar" # assign
+# some_hash.merge(:baz => "huh?", :acme => "co") # assign multiple at a time
 # ------ code above this line ------
-
+#
 require 'rspec/autorun'
 
 RSpec.describe '#group_by_x' do
@@ -12,12 +33,12 @@ RSpec.describe '#group_by_x' do
     ]
 
     expected_result = {
-      1 => [ {x: 1, y: 6} ],
-      5 => [
-        {x: 5, y: 1},
-        {x: 5, y: 8},
-      ],
-    }
+                        1 => [ {x: 1, y: 6} ],
+                        5 => [
+                              {x: 5, y: 1},
+                              {x: 5, y: 8},
+                             ],
+                      }
 
     expect(group_by_x(input)).to eq(expected_result)
   end

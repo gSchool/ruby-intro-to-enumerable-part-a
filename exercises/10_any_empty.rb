@@ -1,4 +1,12 @@
-
+def any_empty?(words)
+  status = false
+  words.each do |word|
+    if word == "" || word == nil
+      status = true
+    end
+  end
+  status
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

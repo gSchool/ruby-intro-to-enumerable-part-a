@@ -1,3 +1,25 @@
+def find_by_field_name(array, field_name, value1)
+  result = {}
+  if array == []
+    result = nil
+  else
+    temp = []
+    array.each do |hash|
+      hash.each do |key, value|
+        if key == field_name && value1 == value
+          temp << hash
+        end
+      end
+    end
+    if temp == []
+      result = nil
+    else
+      result = temp[0]
+    end
+  end
+  result
+end
+
 
 # ------ code above this line ------
 

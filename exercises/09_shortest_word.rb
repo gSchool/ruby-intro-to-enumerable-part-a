@@ -1,4 +1,18 @@
-
+def shortest_word(words)
+  result = '1'*100000
+  if words == []
+    result = nil
+  else
+    words.each do |word|
+      if word.length < result.length
+        result = word
+      else
+        result = result
+      end
+    end
+  end
+  result
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

@@ -1,5 +1,6 @@
 Intro to enumerable part A
 ==================================================================
+Steve W
 
 ## Class Notes:
 

@@ -1,4 +1,12 @@
-
+def find_by_field_name(languages, key, value)
+  result = nil
+  languages.each do |language|
+    if language[key] == value
+      result = language
+    end
+  end
+  result
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

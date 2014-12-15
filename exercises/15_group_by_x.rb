@@ -1,4 +1,30 @@
+def group_by_x(pairs)
+  result = {}
+  x_values = []
+  x_values_temp = []
+  array = nil
+  pairs.each do |pair|
+    puts pair[:x]
+    x_values_temp = x_values_temp << pair[:x]
 
+    x_values_temp.each do |x|
+      if x != pair[:x]
+        x_values = x_values << pair[:x]
+      end
+    end
+  end
+
+  x_values.each do |x|
+    pairs.each do |pair|
+      if pair[:x] == x
+        array = array << pair
+
+      end
+      result[x] = array
+    end
+  end
+  result
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

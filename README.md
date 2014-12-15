@@ -1,4 +1,4 @@
-https-github.com-gSchool-ruby-intro-to-enumerable-part-a
+https-github.com-gSchool-ruby-intro-to-enumerable-part-a !
 ==================================================================
 
 ## Class Notes:

@@ -1,3 +1,19 @@
+def group_by(array, key)
+  result = {}
+  if array == []
+    result
+  else
+    array.each do |hash|
+      if result.has_key?(hash[key])
+        result[hash[key]] << hash
+      else
+        new_array = [hash]
+        result[hash[key]] = new_array
+      end
+    end
+  end
+  return result
+end
 
 # ------ code above this line ------
 

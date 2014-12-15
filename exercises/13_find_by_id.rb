@@ -1,4 +1,22 @@
-
+def find_by_id(array, id)
+  result = {}
+  if array == []
+    result = nil
+  else
+    temp = []
+    array.each do |hash|
+      if id == hash[:id]
+        temp << hash
+      end
+    end
+    if temp == []
+      result = nil
+    else
+      result = temp[0]
+    end
+  end
+  result
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

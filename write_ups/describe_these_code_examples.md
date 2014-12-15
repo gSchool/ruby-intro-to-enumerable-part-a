@@ -5,37 +5,37 @@ Use terms like assigned, reassigned, statement, and concatenates to explain each
 1)
 
 ```
-x = 7 
+x = 7
 ```
 
-**Response:** 
+**Response: Assigns x a value of 7**
 
 
 2)
 
 ```
-foeey = "not foo"
+fooey = "not foo"
 puts fooey
 ```
 
-**Response:**
+**Response: Assigns a string to the local variable foeey and then renders fooey**
 
 
 3)
 
 ```
 special_number = 1
-speical_number = 3
+special_number = 3
 ```
 
-**Response:**
+**Response: Assigns special_number a value of 1 and then reassigns special_number to a value of 3**
 
 4)
 
 ```
 1 + 2
 ```
-**Response:** 
+**Response: Expression that evaluates to 3**
 
 
 5)
@@ -47,7 +47,7 @@ a + b
 
 ```
 
-**Response:** 
+**Response: Assigns a string to variable a and another string to variable b and then adds those variables resulting in string concatenation**
 
 6)
 
@@ -56,4 +56,4 @@ z = 9
 z = z * 3
 ```
 
-**Response:** 
+**Response: Assigns the value of 9 to z and then reassigns the value of z to the multiple of z by 3**

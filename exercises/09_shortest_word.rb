@@ -1,4 +1,18 @@
+def shortest_word(words)
+  result = "*" * 30
 
+  words.each do |word|
+    if word.length < result.length
+      result = word
+    end
+  end
+
+  if result == "*" * 30
+    result = nil
+  end
+
+  result
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

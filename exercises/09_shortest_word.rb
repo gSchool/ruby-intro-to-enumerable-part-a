@@ -1,4 +1,10 @@
-
+def shortest_word(words)
+  shortest_word = nil
+  words.each do |word|
+    shortest_word = word if shortest_word.nil? || shortest_word.length > word.length
+  end
+  shortest_word
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

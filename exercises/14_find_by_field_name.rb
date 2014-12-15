@@ -1,4 +1,10 @@
-
+def find_by_field_name(input, key, value)
+  result = nil
+  input.each do |name|
+    result = name if name[:id] == value || name[:name] == value
+  end
+  result
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

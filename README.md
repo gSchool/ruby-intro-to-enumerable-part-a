@@ -1,6 +1,7 @@
 https-github.com-gSchool-ruby-intro-to-enumerable-part-a
 ==================================================================
 
+Wesley T Whitney
 ## Class Notes:
 
 ### Expressions and Statements:

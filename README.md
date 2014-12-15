@@ -1,6 +1,7 @@
 Intro to enumerable part A
 ==================================================================
 
+Wesley T Whitney
 ## Class Notes:
 
 ### Expressions and Statements:

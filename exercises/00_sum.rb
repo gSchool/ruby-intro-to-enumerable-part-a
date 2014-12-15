@@ -1,3 +1,5 @@
+!
+
 def sum(numbers)
   result = 0
   numbers.each do |number|

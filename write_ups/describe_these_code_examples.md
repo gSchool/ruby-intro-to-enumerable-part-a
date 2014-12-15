@@ -5,20 +5,22 @@ Use terms like assigned, reassigned, statement, and concatenates to explain each
 1)
 
 ```
-x = 7 
+x = 7
 ```
 
-**Response:** 
+**Response:**
+the variable x is assigned the value of 7.
 
 
 2)
 
 ```
-foeey = "not foo"
+fooey = "not foo"
 puts fooey
 ```
 
 **Response:**
+fooey is assigned the value of the string "not foo".  the value of the variable fooey is then printed.
 
 
 3)
@@ -29,13 +31,15 @@ speical_number = 3
 ```
 
 **Response:**
+special_number is reassigned from 1 to 3
 
 4)
 
 ```
 1 + 2
 ```
-**Response:** 
+**Response:**
+in the expression, 1 is added to 2 and returns the value of 3
 
 
 5)
@@ -47,7 +51,8 @@ a + b
 
 ```
 
-**Response:** 
+**Response:**
+the variable a is assigned the value "foo", b is assigned the value "bar".  The strings are then concatenated.
 
 6)
 
@@ -56,4 +61,5 @@ z = 9
 z = z * 3
 ```
 
-**Response:** 
+**Response:**
+the variable z is assigned the value 9.  z * 3 is evaluated, then the variable z is reassigned this new evaluated value.

@@ -1,3 +1,14 @@
+def shortest_word(words)
+  shortest_word = 'a' * 30
+  words.each do |word|
+    if word.length < shortest_word.length
+      shortest_word = word
+    end
+  end
+  return nil if shortest_word == 'a' * 30
+  shortest_word
+end
+
 
 # ------ code above this line ------
 

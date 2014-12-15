@@ -1,6 +1,6 @@
 Intro to enumerable part A
 ==================================================================
-
+## The Evan Edition
 ## Class Notes:
 
 ### Expressions and Statements:

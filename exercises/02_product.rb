@@ -1,4 +1,10 @@
 def product(numbers)
+  result = nil
+  numbers.each do |number|
+    result ||= 1
+    result *= number
+  end
+  result
 end
 
 # ------ code above this line ------

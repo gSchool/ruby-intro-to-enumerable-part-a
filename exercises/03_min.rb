@@ -1,4 +1,11 @@
 def min(numbers)
+  result = nil
+  numbers.each do |number|
+    if result.nil? || number < result
+      result =  number
+    end
+  end
+  result
 end
 
 # ------ code above this line ------

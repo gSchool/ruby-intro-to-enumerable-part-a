@@ -1,3 +1,16 @@
+def find_by_field_name(hashes, coffee, bacon)
+  result = nil
+
+  hashes.each do |hash|
+    hash.each do |id, name|
+      if id == coffee && bacon == name
+        result = hash
+      end
+    end
+  end
+
+  result
+end
 
 # ------ code above this line ------
 

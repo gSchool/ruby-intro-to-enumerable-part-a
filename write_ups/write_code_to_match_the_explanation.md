@@ -28,7 +28,7 @@ z = x * y
 **Response:**
 
 ```
-"all dogs" + " " + "go to heaven"
+"all dogs" + "go to heaven"
 
 ```
 
@@ -50,7 +50,7 @@ a.to_s + b.to_s
 ```
 integer = 231313
 also_arbitrary = "arbitrary"
-integer.to_s + " "+ also_arbitrary
+integer.to_s + also_arbitrary
 ```
 
 #### Revisiting Classes and Objects
@@ -60,7 +60,7 @@ integer.to_s + " "+ also_arbitrary
 **Response:**
 
 ```
-z = integer.to_s + " "+ also_arbitrary
+z = integer.to_s + also_arbitrary
 ```
 
 7) Create a `Car` class, that is constructed with `make` and `model` attributes.
@@ -69,10 +69,12 @@ z = integer.to_s + " "+ also_arbitrary
 
 ```
 class Car
+
   def initialize(make, model)
     @make = make
     @model = model
   end
+
 end
 ```
 
@@ -90,7 +92,8 @@ class Car
   end
 
   def honk
-    puts "#{make.upcase} goes BEEP!"
-
+    puts "#{@make.upcase} goes BEEP!"
   end
+
+end
 ```

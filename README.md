@@ -1,6 +1,10 @@
 https-github.com-gSchool-ruby-intro-to-enumerable-part-a
 ==================================================================
 
+
+
+
+
 ## Class Notes:
 
 ### Expressions and Statements:

@@ -1,3 +1,14 @@
+def find_by_id(inputs, id)
+  result = nil
+
+  inputs.each do |input|
+    if input[:id] == id
+      result = input
+    end
+  end
+
+  result
+end
 
 # ------ code above this line ------
 

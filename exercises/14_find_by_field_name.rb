@@ -1,3 +1,14 @@
+def find_by_field_name(inputs, field, value)
+  result = nil
+
+  inputs.each do |input|
+    if input[field] == value
+      result = input
+    end
+  end
+
+  result
+end
 
 # ------ code above this line ------
 

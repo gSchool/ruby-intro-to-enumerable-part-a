@@ -1,4 +1,19 @@
 def product(numbers)
+  no_numbers = true
+  numbers.each do |number|
+    if number
+      no_numbers = false
+    end
+  end
+  unless no_numbers
+    product = 1
+    numbers.each do |number|
+      product *= number
+    end
+  else
+    product = nil
+  end
+  product
 end
 
 # ------ code above this line ------

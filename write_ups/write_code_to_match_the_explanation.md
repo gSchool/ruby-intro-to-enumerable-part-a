@@ -79,6 +79,6 @@ end
 
 ```
 def honk
-  puts "#{make.upcase} goes BEEP!"
+  puts "#{@make.upcase} goes BEEP!"
 end
 ```

@@ -1,4 +1,11 @@
 def count_words_longer_than(words, length)
+  result = 0
+
+  words.each do |word|
+    result += 1 if word.length > length
+  end
+
+  result
 end
 
 # ------ code above this line ------

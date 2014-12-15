@@ -1,4 +1,12 @@
+def find_by_id(hashes, id)
+  result = nil
 
+  hashes.each do |hash|
+    result = hash if hash[:id] == id
+  end
+
+  result
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

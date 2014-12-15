@@ -1,4 +1,14 @@
+def find_by_field_name(hashes, coffee, bacon)
+  result = nil
+  hashes.each do |hash|
+    hash.each do |id, name|
+      result = hash if bacon == name && coffee = id
+    end
+  end
 
+
+  result
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'
@@ -6,9 +16,12 @@ require 'rspec/autorun'
 RSpec.describe '#find_by_field_name' do
   it 'returns the hash where the value for the given key matches the given value' do
     input = [
-      {id: 3, name: 'English'},
-      {id: 5, name: 'Spanish'},
-      {id: 7, name: 'French'},
+      {id: 3,
+       name: 'English'},
+      {id: 5,
+       name: 'Spanish'},
+      {id: 7,
+       name: 'French'},
     ]
 
     expect(find_by_field_name(input, :name, 'Spanish')).to eq({id: 5, name: 'Spanish'})

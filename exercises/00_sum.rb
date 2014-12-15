@@ -6,6 +6,9 @@ def sum(numbers)
   result
 end
 
+this is a change
+this is a second change
+
 # ------ code above this line ------
 
 require 'rspec/autorun'

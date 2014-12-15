@@ -4,66 +4,80 @@ Write code to match each of the following explanations.
 
 1) Assign the value `2` to the variable `car_count`
 
-**Response:** 
+**Response:**
 
 ```
-# your code here
+car_count = 2
 ```
 
 2) Assign the value `21` to the variable `x`, assign the value `13` to the variable `y`, assign the result of multiplying `x` and `y` to a new variable, `z`.
 
-**Response:** 
+**Response:**
 
 ```
-# your code here
+x = 21
+y = 13
+z = x*y
 ```
 
 3) Provide a statement that concatenates the `String`s `"all dogs"` and `"go to heaven"`
 
-**Response:** 
+**Response:**
 
 ```
-# your code here
+x = "all dogs"
+y = "go to heaven"
+result = x + " " + y
 ```
 
 4) Provide a statement that concatenates the values `6` and `8`
 
-**Response:** 
+**Response:**
 
 ```
-# your code here
+x = 6 + 8
 ```
 
 5) Assign the value `231313` to the variable `integer`, assign the `String` `"arbitrary"` to the variable `also_arbitrary`, provide the statement that casts `integer` as a `String` and concatenates it with `also_arbitrary`
 
-**Response:** 
+**Response:**
 
 ```
-# your code here
+integer = 231313
+also_arbitrary = "arbitrary"
+result = integer.to_s + also_arbitrary
 ```
 
 #### Revisiting Classes and Objects
 
 6) Evaluate the final statement from *Question #5*.
 
-**Response:** 
+**Response:**
 
 ```
-# your code here
+"231313arbitrary"
 ```
 
 7) Create a `Car` class, that is constructed with `make` and `model` attributes.
 
-**Response:** 
+**Response:**
 
 ```
-# your code here
+class Car
+  attr_accessor :make, :model
+end
 ```
 
 8) Take the response from *Question #7* and add `honk` behavior to the car class, which by out`puts` the `String` `"#{make (as all capital letters)} goes BEEP!"` (example output might look like `"SUBARU goes BEEP!"`).
 
-**Response:** 
+**Response:**
 
 ```
-# your code here
+class Car
+  attr_accessor :make, :model
+
+  def honk
+  puts "#{make}.upcase goes BEEP!"
+  end
+end
 ```

@@ -27,7 +27,7 @@ We will use the term *statement* exclusively when talking about code, since we a
 
 **Note: _Programs are just groups of statements._**
 
-#### Code Evaluation:::
+#### Code Evaluation:
 
 We can say that code is *evaluated* when every *statement* is reduced to a value, and no *expressions* remain. For example:
 

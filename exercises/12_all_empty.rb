@@ -1,9 +1,6 @@
 def all_empty?(words)
-  empty = true
-  words.each do |word|
-    return false
-  end
-  empty
+  words.each { |word| return false }
+  true
 end
 # ------ code above this line ------
 

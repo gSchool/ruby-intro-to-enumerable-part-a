@@ -3,6 +3,8 @@ https-github.com-gSchool-ruby-intro-to-enumerable-part-a
 
 ## Class Notes:
 
+## Changing this File - and submitting a pull request
+
 ### Expressions and Statements:
 
 #### What is an expression?

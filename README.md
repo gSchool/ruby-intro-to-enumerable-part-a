@@ -1,7 +1,7 @@
 Intro to enumerable part A
 ==================================================================
 
-## Class Notes:
+## Class Notes: Jeff H is the bees knees
 
 ### Expressions and Statements:
 

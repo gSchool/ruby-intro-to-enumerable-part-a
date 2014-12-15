@@ -1,3 +1,9 @@
+def none_empty?(strings)
+  strings.each do |string|
+    return false if string == '' || string.nil?
+  end
+  return true
+end
 
 # ------ code above this line ------
 

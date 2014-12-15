@@ -1,10 +1,8 @@
 def any_empty?(words)
   result = false
-
   words.each do |word|
     if word == '' || word == nil
       result = true
-    else
     end
   end
 

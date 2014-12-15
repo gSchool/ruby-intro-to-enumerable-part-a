@@ -1,6 +1,8 @@
 Intro to enumerable part A
 ==================================================================
 
+DRU WUZ HERE 2014!
+
 ## Class Notes:
 
 ### Expressions and Statements:

@@ -1,3 +1,22 @@
+def find_by_field_name(langs, key, value)
+
+  result = nil
+
+  langs.each do |lang|
+
+    if lang[key] == value
+      result = lang
+    end
+
+  end
+
+
+  result
+
+end
+
+
+
 
 # ------ code above this line ------
 

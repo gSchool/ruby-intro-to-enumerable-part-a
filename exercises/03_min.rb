@@ -1,4 +1,20 @@
 def min(numbers)
+
+  result = nil
+
+  numbers.each do |number|
+    if result == nil
+      result = 1000
+    end
+
+    if number < result
+      result = number
+    end
+
+  end
+
+  result
+
 end
 
 # ------ code above this line ------

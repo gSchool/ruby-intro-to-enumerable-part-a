@@ -32,6 +32,7 @@ special_number = 3
 **Response:**
 
 special_number was initially assigned the value of 1, but was then reassigned to 3 on the next line
+
 4)
 
 ```

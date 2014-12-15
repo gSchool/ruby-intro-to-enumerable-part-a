@@ -34,7 +34,7 @@ z = x*y
 ```
 # your code here
 
-"all dogs" + "go to heaven"
+"all dogs" + "" + "go to heaven"
 ```
 
 4) Provide a statement that concatenates the values `6` and `8`
@@ -56,7 +56,7 @@ z = x*y
 integer = 231313
 also_arbitrary = "arbitrary"
 
-"integer.to_s" + "also_arbitrary"
+"integer.to_s" + "" + "also_arbitrary"
 
 ```
 

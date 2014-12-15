@@ -1,4 +1,9 @@
-
+def all_empty?(input)
+  input.each do |item|
+    return false
+  end
+  true
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

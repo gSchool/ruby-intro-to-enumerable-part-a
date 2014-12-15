@@ -1,4 +1,13 @@
 def min(numbers)
+  min = nil
+  numbers.each do |number|
+    if min.nil?
+      min = number
+    elsif number < min
+      min = number
+    end
+  end
+  min
 end
 
 # ------ code above this line ------

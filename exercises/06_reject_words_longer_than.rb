@@ -1,4 +1,9 @@
 def reject_words_longer_than(words, length)
+  longer = []
+  words.each do |word|
+    word.length <= length ? longer << word : next
+  end
+  longer
 end
 
 # ------ code above this line ------

@@ -1,6 +1,8 @@
 https-github.com-gSchool-ruby-intro-to-enumerable-part-a
 ==================================================================
 
+DRU WUZ HERE 2014!
+
 ## Class Notes:
 
 ### Expressions and Statements:

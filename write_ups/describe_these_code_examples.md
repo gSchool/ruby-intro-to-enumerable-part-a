@@ -53,7 +53,7 @@ a + b
 
 **Response:**
 
-a is assigned "foo", b is assigned "bar", and then they are concatenated to create "foo bar"
+a is assigned "foo", b is assigned "bar", and then they are concatenated to create "foobar"
 6)
 
 ```
@@ -63,4 +63,4 @@ z = z * 3
 
 **Response:**
 
-z is initially assigned to 9, then is reassigned to its original value multiplied by 3, which will be evaluated as 7
+z is initially assigned to 9, then is reassigned to its original value multiplied by 3, which will be evaluated as 27

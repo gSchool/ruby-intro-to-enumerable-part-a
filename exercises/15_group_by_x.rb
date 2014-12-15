@@ -1,3 +1,22 @@
+def group_by_x(pairs)
+
+  result = {}
+
+    pairs.each do |pair|
+      pair.each do |x, y|
+
+      * * * * * * * * * * *
+      * GET IN YOUR BOX!! *
+      * * * * * * * * * * * 
+
+      end
+    end
+
+  result
+
+end
+
+
 
 # ------ code above this line ------
 

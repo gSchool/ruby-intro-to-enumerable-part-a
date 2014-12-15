@@ -1,3 +1,22 @@
+def find_by_id(langs, id)
+
+result = nil
+
+  langs.each do |lang|
+
+    if lang[:id] == id
+        result = lang
+    end
+
+  end
+
+
+
+
+result
+
+
+end
 
 # ------ code above this line ------
 

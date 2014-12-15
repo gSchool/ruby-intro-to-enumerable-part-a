@@ -1,4 +1,15 @@
+def group_by(array, key )
+  result = {}
+  array.each do |hash|
+    result = result.merge({hash[key] => [hash]}){|key, oldval, newval| oldval + newval}
+    
+  end
 
+
+
+  result
+
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

@@ -1,3 +1,9 @@
+def any_empty?(input)
+  input.each do |item|
+    return true if item == '' || item == nil
+  end
+  false
+end
 
 # ------ code above this line ------
 

@@ -1,3 +1,18 @@
+def group_by_x(inputs)
+  result = {}
+
+  inputs.each do |input|
+    i = input[:x]
+    array = []
+      inputs.each do |input2|
+        if i == input2[:x]
+          array << input2
+        end
+      end
+    result[i] = array
+  end
+  result
+end
 
 # ------ code above this line ------
 

@@ -1,3 +1,14 @@
+def any_empty?(strings)
+  result = false
+
+  strings.each do |string|
+    if string == nil or string.length == 0
+      result = true
+    end
+  end
+
+  result
+end
 
 # ------ code above this line ------
 

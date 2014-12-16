@@ -1,4 +1,24 @@
+def find_by_id(input, number)
 
+  result = nil
+
+  input.each do |hash|
+
+    if hash[:id] == number
+      result = hash
+    end
+
+  end
+
+  if input == []
+    result = nil
+  end
+
+
+  result
+
+
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

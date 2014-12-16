@@ -1,4 +1,15 @@
+def group_by(input, key)
 
+  result = {}
+
+  input.each do |hash|
+    result[hash[key]] ||= []
+    result[hash[key]] << hash
+  end
+
+  return result
+
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

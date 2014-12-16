@@ -1,4 +1,24 @@
+def find_by_field_name(input, key, value)
 
+  result = nil
+
+  input.each do |hash|
+
+    if hash.keys.include?(key) && hash.values.include?(value)
+      result = hash
+    end
+
+  end
+
+  if input == []
+    result = nil
+  end
+
+
+  result
+
+
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

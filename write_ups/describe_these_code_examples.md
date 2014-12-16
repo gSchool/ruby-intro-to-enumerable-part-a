@@ -15,7 +15,7 @@ x = 7
 2)
 
 ```
-foeey = "not foo"
+fooey = "not foo"
 puts fooey
 ```
 

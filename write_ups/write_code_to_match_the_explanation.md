@@ -30,8 +30,7 @@ z = x * y
 **Response:**
 
 ```
-'6' + '8'
-
+14
 
 5) Assign the value `231313` to the variable `integer`, assign the `String` `"arbitrary"` to the variable `also_arbitrary`, provide the statement that casts `integer` as a `String` and concatenates it with `also_arbitrary`
 
@@ -39,7 +38,7 @@ z = x * y
 
 ```
 integer = 231313
-also_arbitrary = 'String'
+also_arbitrary = 'arbitrary'
 integer.to_s + also_arbitrary
 
 #### Revisiting Classes and Objects
@@ -48,7 +47,7 @@ integer.to_s + also_arbitrary
 
 **Response:**
 
-'231313 String'
+'231313arbitrary'
 
 
 7) Create a `Car` class, that is constructed with `make` and `model` attributes.

@@ -1,38 +1,4 @@
-def reduce(items, number)
 
-  result = number
-
-  items.each do |item|
-    result = result + item
-  end
-
-  result
-
-end
-
-def array_reduce(items, thing)
-
-  result = thing
-
-  items.each do |item|
-    result << item.upcase
-  end
-
-  result
-
-end
-
-def default_reduce(items, thing)
-
-  result = thing
-
-  items.each do |item|
-    result = result + item
-  end
-
-  result
-
-end
 
 # ------ code above this line ------
 

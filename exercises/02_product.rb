@@ -1,4 +1,19 @@
 def product(numbers)
+
+  result = nil
+
+  new_number = 1
+
+  numbers.each do |number|
+
+    new_number = new_number * number
+    result = new_number
+    # try *= here
+
+  end
+
+  result
+
 end
 
 # ------ code above this line ------

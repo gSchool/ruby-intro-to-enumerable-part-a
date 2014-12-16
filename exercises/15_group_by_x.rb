@@ -1,5 +1,44 @@
+# def group_by_x(hashes)
+#
+#   result = {}
+#
+#   hashes.each do |hash|
+#     result[hash[:x]] || result[hash[:x]] = []
+#     result[hash[:x]] << hash
+#   end
+#
+#   result
+#
+# end
+
+def group_by_x(hashes)
+
+  result = {}
+
+  hashes.each do |hash|
+    result[hash[:x]] = result[hash[:x]]j || []
+    result[hash[:x]] << hash
+  end
+
+  result
+
+end
+
+# for the first hash, take the x value and make an array
+#   for the next hash, check to see if the x value is the same as the previous
+#     if so, push it into the array
+#       if not, create a new array
+#         for the next hash, check if it matches either array and so on
 
 # ------ code above this line ------
+# hashes.each do |hash|
+#   result[hash[x]] ||= []
+#   result[hash[x]] << hash
+# end
+
+# result[1] = result[1] || []  #result[1] is a key in the hash of the expected result (see below)
+# result[1] = nil || []
+# result[1] = []
 
 require 'rspec/autorun'
 

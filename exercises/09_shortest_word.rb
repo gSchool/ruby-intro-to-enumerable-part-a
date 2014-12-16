@@ -1,3 +1,22 @@
+def shortest_word(words)
+
+  result =  nil
+
+  length = 0
+
+  words.each do |word|
+
+    if word.length < length
+      length = word.length
+      result = word
+    end
+
+  end
+
+  result
+
+end
+
 
 # ------ code above this line ------
 

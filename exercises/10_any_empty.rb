@@ -1,3 +1,14 @@
+def any_empty?(words)
+  words.each do |word|
+    if word.to_s.empty? # use ? when trying to get true or false as result; return true or false
+      return true # return stops everything else in the method and then returns
+                  # that value (so here it never makes it to false)
+    end
+  end
+  false
+end
+
+
 
 # ------ code above this line ------
 

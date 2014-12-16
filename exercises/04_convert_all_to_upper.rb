@@ -1,5 +1,22 @@
 def convert_all_to_upper_case(words)
+
+  result = []
+
+  words.each do |word|
+    result << word.upcase
+  end
+
+  result
+
 end
+
+# def convert_all_to_upper_case(words)
+#
+#   words.each do |word|
+#     word.upcase!  # bang method in ruby says don't make a copy of it; modify it in place in memory
+#   end             # called mutating or changing in place
+#
+# end
 
 # ------ code above this line ------
 

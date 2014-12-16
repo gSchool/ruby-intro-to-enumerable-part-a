@@ -1,5 +1,30 @@
 def count_words_longer_than(words, length)
+
+  result = 0
+
+  new_array = []
+
+  words.each do |word|
+    if word.length > length
+      new_array << word
+    end
+    result = new_array.count
+  end
+
+  result
+
 end
+
+# def count_words_longer_than(words, length)
+# count = 0
+#
+# words.each do |word|
+#   if word.length > length
+#     count += 1
+#   end
+# end
+# count
+# end
 
 # ------ code above this line ------
 

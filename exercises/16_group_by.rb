@@ -1,3 +1,8 @@
+def group_by(hashes, key)
+
+  
+
+end
 
 # ------ code above this line ------
 

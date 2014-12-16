@@ -1,28 +1,26 @@
+# def group_by_x(hashes)
+#
+#   result = {}
+#
+#   hashes.each do |hash|
+#     result[hash[:x]] || result[hash[:x]] = []
+#     result[hash[:x]] << hash
+#   end
+#
+# end
+
 def group_by_x(hashes)
 
   result = {}
 
   hashes.each do |hash|
-    result[hash[:x]] || result[hash[:x]] = []
+    result[hash[:x]] = result[hash[:x]] || []
     result[hash[:x]] << hash
   end
 
   result
 
 end
-
-# def group_by_x(hashes)
-#
-#   result = {}
-#
-#   hashes.each do |hash|
-#     result[hash[:x]] = result[hash[:x]] || []
-#     result[hash[:x]] << hash
-#   end
-#
-#   result
-#
-# end
 
 # def group_by_x(hashes)
 #

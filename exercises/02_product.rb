@@ -1,4 +1,11 @@
 def product(numbers)
+  result  = nil
+  factors = 1
+  numbers.each do |number|
+    factors = number*factors
+    result = factors
+  end
+  result
 end
 
 # ------ code above this line ------

@@ -1,3 +1,14 @@
+def any_empty?(words)
+  result = false
+  words.each do |word|
+    if word == '' || word == nil
+      result = true
+    end
+  end
+
+  result
+
+end
 
 # ------ code above this line ------
 

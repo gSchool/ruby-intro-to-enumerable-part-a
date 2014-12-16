@@ -7,6 +7,8 @@
 #     result[hash[:x]] << hash
 #   end
 #
+#   result
+#
 # end
 
 def group_by_x(hashes)

@@ -1,3 +1,25 @@
+def shortest_word(words)
+  result = nil
+  words.each do |word|
+    result ||= word
+    result = word if word.length < result.length
+  end
+  result
+end
+
+  
+# Other solution:
+#   if words == []
+#     return nil
+#   end
+#   shortest_word = "pneumonoultramicroscopicsilicovolcanoconiosis"
+#   words.each do |word|
+#     if word.length < shortest_word.length
+#       shortest_word = word
+#     end
+#   end
+#   shortest_word
+# end
 
 # ------ code above this line ------
 

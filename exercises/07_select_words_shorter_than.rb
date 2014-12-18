@@ -1,5 +1,17 @@
 def select_words_shorter_than(words, length)
+  result = []
+  words.each do |word|
+    if word.length < length
+      result << word
+    end
+  end
+  result
 end
+
+
+# input.select{ |word| word.length < 4 }
+
+# result << word if word.length < length
 
 # ------ code above this line ------
 

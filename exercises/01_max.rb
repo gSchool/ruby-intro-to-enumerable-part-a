@@ -11,6 +11,8 @@ end
 require 'rspec/autorun'
 
 RSpec.describe '#max' do
+  
+
   it 'returns highest number in the array' do
     expect(max([1,2,3])).to eq(3)
     expect(max([10, 10])).to eq(10)

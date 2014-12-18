@@ -1,5 +1,26 @@
 def longest_word(words)
+  result = nil
+  words.each do |word|
+    result ||= word
+    result = word if word.length > result.length
+  end
+  result
 end
+
+# Other solution:
+# def longest_word(words)
+#   if words == []
+#     return nil
+#   end
+#   longest_word = ""
+#   words.each do |word|
+#     if word.length > longest_word.length
+#       longest_word = word
+#     end
+#   end
+#   longest_word
+# end
+
 
 # ------ code above this line ------
 

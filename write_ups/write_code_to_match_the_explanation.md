@@ -18,7 +18,6 @@ car_count = 2
 ```
 x = 21
 y = 13
-
 z = x * y
 
 ```
@@ -41,6 +40,11 @@ z = x * y
 
 ```
 
+**Andreas' feedback:**
+This was a trick question! You don't concatenate integers!
+
+
+
 5) Assign the value `231313` to the variable `integer`, assign the `String` `"arbitrary"` to the variable `also_arbitrary`, provide the statement that casts `integer` as a `String` and concatenates it with `also_arbitrary`
 
 **Response:**
@@ -48,10 +52,20 @@ z = x * y
 ```
 integer = 231313
 also_arbitrary = "arbitrary"
-
-"integer.to_s" + "also_arbitrary"
+integer.to_s + also_arbitrary
 
 ```
+
+**Andreas' feedback:**
+What would this line evaluate to?
+
+**My Edited Answer:**
+
+integer = 231313
+also_arbitrary = "arbitrary"
+integer.to_s + also_arbitrary
+"231313" + "arbitrary"
+"231313arbitrary"
 
 #### Revisiting Classes and Objects
 
@@ -63,6 +77,11 @@ also_arbitrary = "arbitrary"
 "231313" + "arbitrary"
 
 ```
+**Andreas' feedback:**
+Is this full evaluated?
+
+**THE ANSWER:**
+"231313arbitrary"
 
 7) Create a `Car` class, that is constructed with `make` and `model` attributes.
 
@@ -70,7 +89,7 @@ also_arbitrary = "arbitrary"
 
 ```
 class Car
-  def initialize (make, model)
+  def initialize(make, model)
     @make = make
     @model = model
   end
@@ -84,13 +103,16 @@ end
 
 ```
 class Car
-  def initialize (make, model)
+  def initialize(make, model)
     @make = make
     @model = model
   end
 
   def honk
-    puts "#{car.upcase} goes BEEP!"
+    puts "#{@make.upcase} goes BEEP!"
   end
 end
 ```
+
+**Andreas' feedback:**
+Nice job!

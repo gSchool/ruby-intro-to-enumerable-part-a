@@ -1,3 +1,10 @@
+def any_empty?(words)
+  words.each do |word|
+    return true if word.to_s.empty?
+  end
+  false
+end
+
 
 # ------ code above this line ------
 

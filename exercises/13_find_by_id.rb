@@ -1,3 +1,19 @@
+def find_by_id(hashes, id)
+  hashes.each do |hash|
+    return hash if hash[:id] == id
+  end
+  nil
+end
+
+# Same solution:
+# result = nil
+# hashes.each do |hash|
+# result = hash if hash[:id] == id
+# end
+# nil
+# end
+
+
 
 # ------ code above this line ------
 

@@ -1,6 +1,9 @@
 Intro to enumerable part A
 ==================================================================
 
+Denise McCoy was here and changed this file.gi
+
+
 ## Class Notes:
 
 ### Expressions and Statements:

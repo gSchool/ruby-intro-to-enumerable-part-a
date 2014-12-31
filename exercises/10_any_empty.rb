@@ -1,3 +1,21 @@
+def any_empty?(words)
+
+  result = false
+
+  words.each do |word|
+    if word == nil
+      result = true
+
+    else
+      if word.empty?
+        result = true
+    end
+  end
+end
+
+  result
+end
+
 
 # ------ code above this line ------
 

@@ -1,5 +1,19 @@
 def min(numbers)
-end
+  lowest_number = 1000000000
+
+  numbers.each do |number|
+    unless lowest_number < number
+      lowest_number = number
+    end
+  end
+
+    if lowest_number == 1000000000
+      nil
+    else
+      lowest_number
+    end
+  end
+
 
 # ------ code above this line ------
 

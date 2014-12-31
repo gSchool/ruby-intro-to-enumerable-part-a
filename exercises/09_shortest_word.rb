@@ -1,3 +1,18 @@
+def shortest_word(words)
+
+  shortest = 1000000.to_s
+
+ words.each do |word|
+  unless shortest.length <= word.length
+    shortest = word
+  end
+end
+
+ unless shortest.length == 1000000.to_s.length
+
+  shortest
+end
+end
 
 # ------ code above this line ------
 

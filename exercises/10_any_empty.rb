@@ -1,4 +1,11 @@
 
+def any_empty?(strings)
+  strings.each do |string|
+    return true if string.nil? || string.empty?
+  end
+
+  false
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

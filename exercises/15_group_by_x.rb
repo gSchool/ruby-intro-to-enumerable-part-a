@@ -1,4 +1,11 @@
-
+def group_by_x(hashes)
+  result = {}
+  hashes.each do |hash|
+    result[hash[:x]] || = []
+    result[hash[:x]] << hash
+end
+result
+end 
 # ------ code above this line ------
 
 require 'rspec/autorun'

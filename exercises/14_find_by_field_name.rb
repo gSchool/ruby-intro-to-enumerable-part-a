@@ -1,3 +1,9 @@
+def find_by_field_name(hash, key, value)
+  hashes.each do |hash|
+    return hash if hash[key] == value
+  end
+  nil  
+end
 
 # ------ code above this line ------
 
